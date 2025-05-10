@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: verdana;
+}
+nav{
+    background-color: rgb(35, 33, 33);
+    padding: 30px;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    display:inline-block;
+   
+}
+.links{
+    transition: 0.4;
+    gap: 15px;
+    top: 15px;
+    position: relative;
+
+}
+.link{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    flex-wrap: wrap;
+
+    
+}
+.link:hover{
+    color:white ;
+    border-radius: 40px;
+    background-color:#898d8e;;
+    height: 30px;
+    width: 50px;
+    
+}
+.text{
+    text-align: center;
+    flex-wrap: wrap;
+    color: rgb(12, 12, 12);
+}
+.text h2{
+    color: rgb(2, 2, 2);
+    
+}
+.main-container{
+    background: rgb(44, 43, 43);
+    margin: 10px;
+    padding: 10px;
+   text-align: center;
+   border-radius: 20px;
+   color: white;  
+}
+.content{
+    background-color: rgb(70, 71, 71);
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 40px;
+}
+.content:hover{
+    background-color: rgb(90, 87, 87);
+    transition: 0.3s;
+    color: white;
+}
+footer{
+    background-color: rgb(44, 43, 43); ;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+.style{
+    background-color: gray;
+    text-align: center;
+}
+.style1 a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.style1{
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+   justify-content: center;
+   border-radius: 20px;
+}
+.style1:hover{
+    background-color: rgb(100, 96, 96);
+    transition: 0.3s;
+    color: white;
+}
+.main-goal{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(88, 85, 85); 
+    display: flex;
+}
+.mission{
+    padding-bottom: 60px;
+    background-color: white;
+    margin: 15px;
+    padding: 50px;
+    border-radius: 5px;
+  
+}
+.goal{
+    text-align: center;
+    padding: 30px;
+    padding: 40px;
+}
+.mission:hover{
+    background-color: rgb(77, 46, 46);
+
+}
+.inspiration{
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+.information{
+    background-color: rgb(99, 96, 96);
+    margin: 20px;
+    padding: 0px;
+   text-align: center;
+   flex-wrap: wrap;
+   border-radius: 10px;
+}.info1{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.contact{
+    background-color: rgb(145, 138, 138);
+    flex-wrap: wrap;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.inquires{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.step{
+    background-color: rgb(117, 113, 113);
+    display: block;
+    text-align: center;
+}
+.step2{
+background-color: rgb(51, 44, 44);
+margin: 20px;
+padding: 40px;
+}
+.step3{
+    background-color: rgb(84, 77, 71);
+    padding: 60px;
+}
+
+

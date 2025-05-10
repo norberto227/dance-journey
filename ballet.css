@@ -15,22 +15,30 @@
 .tutorial{
     background-color: white;
     border-radius:15px ;
-    margin: 20px;
-    padding: 20px;
-    width: 450px;
+    margin: 10px;
+    padding: 40px;
+    width: 90%;
+    height: 20%;
     display: inline-block;
-    align-items: center;
-   
+  
 }
 .iframe{
     padding: 10px;
     border-radius: 15px;
    flex-wrap: wrap;
+   justify-content: center;
+
 }
 .tutorial1{
     background-color: rgb(65, 63, 63);
-   padding: 20px;
-   width: 390px;
+   padding: 40px;
+   margin: 5px;
+
 border-radius: 20px;
 flex-wrap: wrap;
+ iframe{
+    width: 100%;
+  
+ }
 }
+
